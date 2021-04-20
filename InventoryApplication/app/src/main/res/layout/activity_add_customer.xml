@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".AddCustomerActivity">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/menubuttonstyle"
+        app:backgroundTint="@color/white"
+        android:text="חזרה"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back_button"
+        android:layout_centerHorizontal="true"
+        android:text=" הוספת לקוח "
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:textSize="40sp"/>
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="שם לקוח"
+            android:inputType="text"
+            android:id="@+id/CustomerNameET"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="שם חברה"
+            android:inputType="text"
+            android:id="@+id/CustomerCompanyET"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="טלפון"
+            android:inputType="phone"
+            android:id="@+id/CustomerPhoneET"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="מייל"
+            android:inputType="textEmailAddress"
+            android:id="@+id/CustomerEmailET"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="הערה"
+            android:inputType="text"
+            android:id="@+id/CustomerNoteET"/>
+
+        <Button
+            android:id="@+id/add_customer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/menubuttonstyle"
+            app:backgroundTint="@color/white"
+            android:text="הוסף"
+            android:textStyle="bold"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
