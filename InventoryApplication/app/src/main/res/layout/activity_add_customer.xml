@@ -53,6 +53,18 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="מספר עושק"
+            android:inputType="number"
+            android:id="@+id/CustomerCompanyNumberET"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="כתובת"
+            android:inputType="number"
+            android:id="@+id/CustomerAddressET"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="טלפון"
             android:inputType="phone"
             android:id="@+id/CustomerPhoneET"/>
