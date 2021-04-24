@@ -22,7 +22,7 @@
         android:textSize="25sp"/>
 
     <Button
-        android:id="@+id/add_customer_button"
+        android:id="@+id/add_item_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
@@ -39,7 +39,7 @@
         android:id="@+id/Customers_RecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/add_customer_button"
+        android:layout_below="@+id/add_item_button"
         android:layout_marginTop="10dp"/>
 
 
